@@ -9,3 +9,7 @@ class User(models.Model):
     password = models.CharField(max_length=50)
 
     create_time = models.DateTimeField(auto_now_add=True)
+
+class Student(models.Model):
+
+    username = models.CharField(max_length=10)
